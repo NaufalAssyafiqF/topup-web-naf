@@ -7,3 +7,33 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  position: relative;
+  height: 100%;
+}
+
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  max-width: 900px;
+  @apply rounded-xl overflow-hidden
+}
+
+.swiper-slide-visible {
+  @apply rounded-xl overflow-hidden
+}
+
+.swiper-slide Image {
+  display: block;
+  width: 100%;
+  
+}
+
