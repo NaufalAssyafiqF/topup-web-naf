@@ -1,11 +1,19 @@
 import HeroSlider from "@/components/HeroSlider";
+import Linebar from "@/components/Linebar";
+import ListCard from "@/components/ListCard";
 import Navbar from "@/components/Navbar";
+import Image from "next/image";
+
 
 export default function Home() {
   return (
-    <div>
+    <div className="bg-[#26292b]">
       <Navbar />
-      <HeroSlider />
+      <main className="max-w-[1200px] mx-auto pb-4">
+        <HeroSlider />
+        <Linebar />
+        <ListCard/>
+      </main>
     </div>
   );
 }
