@@ -1,5 +1,5 @@
 "use client";
-import React, { useRef, useState } from "react";
+import React from "react";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import hero1 from "@/assets/images/hero1.webp";
@@ -32,7 +32,7 @@ const HeroSlider = () => {
         modules={[EffectCoverflow, Autoplay, Pagination]}
         horizontalClass={true}
         className="mySwiper"
-        // autoplay={{delay: 3000}}
+        autoplay={{delay: 3000}}
       >
         <SwiperSlide className="rounded-lg overflow-hidden">
           <Image

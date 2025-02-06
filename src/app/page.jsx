@@ -3,7 +3,7 @@ import Linebar from "@/components/Linebar";
 import ListCard from "@/components/ListCard";
 import Navbar from "@/components/Navbar";
 import Image from "next/image";
-
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -12,8 +12,9 @@ export default function Home() {
       <main className="max-w-[1200px] mx-auto pb-4">
         <HeroSlider />
         <Linebar />
-        <ListCard/>
+        <ListCard />
       </main>
+      <Footer />
     </div>
   );
 }
