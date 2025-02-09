@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const TopupCard = ({data}) => {
   return (
-    <div className="w-[200px] h-[250px] object-cover bg-center rounded-xl overflow-hidden relative group cursor-pointer transition duration-300 hover:scale-105 hover:ring-2 ring-orange-500">
+    <div className="aspect-[4/6] w-full object-cover bg-center rounded-xl overflow-hidden relative group cursor-pointer transition duration-300 hover:scale-105 hover:ring-2 ring-orange-500">
       <Image src={data.image} quality={100} className="w-full h-full" alt='game-image'/>
       <div className="absolute group-hover:inset-0 transition duration-300 ease-in-out bg-gradient-to-t from-[#26292b] w-full h-full rounded-lg"></div>
       <div className="absolute bottom-0 text-white p-2 transition duration-300 transform translate-y-20 group-hover:translate-y-0">

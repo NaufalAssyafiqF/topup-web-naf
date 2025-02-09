@@ -23,8 +23,8 @@ body {
 .swiper-slide {
   background-position: center;
   background-size: cover;
-  max-width: 900px;
-  @apply rounded-xl overflow-hidden
+  max-width: 800px;
+  @apply rounded-xl overflow-hidden 
 }
 
 .swiper-slide-visible {
