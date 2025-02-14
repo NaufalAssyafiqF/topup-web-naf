@@ -4,13 +4,13 @@ import { GiKnockedOutStars } from "react-icons/gi";
 
 const Footer = () => {
   return (
-    <div className="bg-[#2c2f31] mt-20">
+    <div className="bg-[#2c2f31]">
       <div className="max-w-[1200px] mx-auto pb-4 pt-10 ">
         <div className="mx-5 md:mx-10 flex justify-center space-y-10 lg:space-y-0 flex-col sm:flex-col md:flex-col lg:flex-row xl:flex-row space-x-0 lg:space-x-8">
           <div className="w-full lg:w-1/2">
             <div className="font-bold flex items-center space-x-2 mb-4">
               <h1 className="text-white text-4xl sm:text-4xl md:text-5xl lg:text-6xl">
-                HBACK
+                HABEK
               </h1>
               <h1 className="text-white text-4xl sm:text-4xl md:text-5xl lg:text-6xl">
                 STORE
@@ -55,7 +55,7 @@ const Footer = () => {
         </div>
         <hr className="mt-20 mx-5 md:mx-10" />
         <p className="mx-5 md:mx-10 text-white mt-4 text-base md:text-lg">
-          &copy; 2021 EmpeShop. Semua Hak Cipta
+          &copy; 2025 HABEK STORE. Semua Hak Cipta
         </p>
       </div>
     </div>
