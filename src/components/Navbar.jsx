@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <div className="bg-[#2c2f31] h-[65px] drop-shadow-[0_5px_35px_rgba(255,255,255,0.5)]">
+    <div className="bg-[#2c2f31] h-[65px] drop-shadow-[0_5px_35px_rgba(255,255,255,0.5)] sticky top-0">
       <div className="h-full max-w-[1200px] mx-auto">
         <div className="mx-5 md:mx-10 flex items-center h-full">
           <IoMenu className="text-white text-3xl mr-10 cursor-pointer" />

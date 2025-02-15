@@ -3,11 +3,14 @@ import React from "react";
 import bannerGame from "@/assets/images/hero1.webp";
 import imageGame from "@/assets/images/ml.webp";
 import { topupMobilelegends } from "@/utils/topup-ml";
-import imgDiamond from "@/assets/images/diamond_.png"
+import imgDiamond from "@/assets/images/diamond_.png";
+import pmbayaranQris from "@/assets/images/pembayaran/qris.webp";
 import { GoShieldCheck } from "react-icons/go";
 import { PiHeadset } from "react-icons/pi";
 import { AiOutlineThunderbolt } from "react-icons/ai";
 import { TbShieldDollar } from "react-icons/tb";
+import { IoIosArrowDown } from "react-icons/io";
+import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 
 const page = () => {
   return (
@@ -118,10 +121,72 @@ const page = () => {
                 </div>
               </div>
               {/* tahap 3 */}
-              <div>
-                
+              <div className="bg-[#2c2f31] p-4 w-full rounded-lg mt-4">
+                <div className="flex space-x-6 mb-4">
+                  <h1 className="text-white text-2xl font-medium">3.</h1>
+                  <p className="text-white text-2xl font-medium">
+                    Pilih Metodde pembayaran
+                  </p>
+                </div>
+
+                <hr />
+                <div className="rounded-lg overflow-hidden mt-4">
+                  <div className="bg-[#44494c] py-1 px-2">
+                    <p className="text-white text-base font-medium">QRIS</p>
+                    <div className="bg-white p-2 flex flex-col  space-y-2 w-fit rounded-lg my-2">
+                      <Image
+                        src={pmbayaranQris}
+                        width={1000}
+                        height={1000}
+                        alt="pemabayaran-qris"
+                        className="w-[200px]"
+                      />
+                      <p className="text-slate-400 ">Rp.186.000,-</p>
+                      <hr />
+                      <p className="text-sm font-medium">
+                        QRIS Untuk Semua Pembayaran
+                      </p>
+                    </div>
+                  </div>
+                  <div className="bg-[#ffffff] flex justify-end items-center pe-2">
+                    <Image
+                      src={pmbayaranQris}
+                      width={1000}
+                      height={1000}
+                      alt="pemabayaran-qris"
+                      className="w-[200px] me-4"
+                    />
+                    <IoIosArrowDown className="text-2xl " />
+                  </div>
+                </div>
               </div>
-              <div></div>
+              {/* tahap 4 */}
+              <div className="bg-[#2c2f31] p-4 w-full rounded-lg mt-4">
+                <div className="flex space-x-6 mb-4">
+                  <h1 className="text-white text-2xl font-medium">4.</h1>
+                  <p className="text-white text-2xl font-medium">
+                    Masukan Nomor Whatsapp
+                  </p>
+                </div>
+                <hr />
+                <div className="mt-4">
+                  <input
+                    type="text"
+                    placeholder="08xxxxxx"
+                    className="block w-full px-3 py-2 rounded-full"
+                  />
+                  <p className="mt-4 text-white text-sm font-medium">
+                    Masukkan nomor anda untuk menyimpan riwayat pesanan in
+                  </p>
+                </div>
+                <button
+                  type="submit"
+                  className="w-fit px-4 py-2 bg-green-600 rounded-full text-white mt-4 text-lg font-medium flex items-center"
+                >
+                  <p>Konfirmasi TopUp </p>
+                  <MdKeyboardDoubleArrowRight className="text-4xl" />
+                </button>
+              </div>
               <div></div>
             </form>
           </div>
