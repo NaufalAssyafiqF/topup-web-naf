@@ -7,7 +7,7 @@ const page = () => {
   return (
     <div className="bg-[#26292b] ">
       <div className="max-w-[1200px] mx-auto">
-        <div className="w-full pt-10 px-10">
+        <div className="w-full pt-10 px-4 md:px-10">
           <Image
             src={bannerGame}
             width={1000}

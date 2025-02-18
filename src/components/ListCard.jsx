@@ -5,7 +5,7 @@ import { listTopup } from "@/utils/data";
 
 const ListCard = () => {
   return (
-    <div className="mx-5 md:mx-10 grid flex-1 grid-cols-2 gap-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 sm:grid-cols-3 md:gap-5">
+    <div className="mx-4 md:mx-10 grid flex-1 grid-cols-3 gap-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-5 sm:grid-cols-3 md:gap-5">
       {listTopup.map((data, index) => (
         <TopupCard data={data} key={index} />
       ))}

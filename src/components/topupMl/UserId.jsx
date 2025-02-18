@@ -17,7 +17,7 @@ const UserId = () => {
           className="block w-1/2 px-2 py-1 rounded-full"
         />
       </div>
-      <p className="mt-4 text-white text-sm font-medium">
+      <p className="mt-4 text-white text-xs md:text-sm font-medium">
         Silahkan masukkan User ID dan Server Anda
       </p>
     </div>

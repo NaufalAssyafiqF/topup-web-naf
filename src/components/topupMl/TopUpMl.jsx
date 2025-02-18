@@ -14,10 +14,10 @@ import NomorWhatsapp from "./NomorWhatsapp";
 
 const TopUpMl = () => {
   return (
-    <div className="w-full pt-10 px-10 pb-20 flex space-x-5">
+    <div className="w-full pt-10 px-4 md:px-10 pb-20 flex flex-col sm:flex-col md:flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-5">
       <SideSecTopup imageGame={imageGame} />
       {/* Proses Transaksi */}
-      <div className="w-[70%]">
+      <div className="w-full sm:w-full md:w-full lg:w-[70%]">
         <form action="">
           {/* Tahap 1 Transaksi */}
           <UserId />

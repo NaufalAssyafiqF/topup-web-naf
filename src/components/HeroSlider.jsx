@@ -16,7 +16,7 @@ import { EffectCoverflow, Autoplay, Pagination } from "swiper/modules";
 
 const HeroSlider = () => {
   return (
-    <div className="mx-5 md:mx-10 pt-10">
+    <div className="mx-4 md:mx-10 pt-10">
       <Swiper
         effect="coverflow"
         centeredSlides={true}

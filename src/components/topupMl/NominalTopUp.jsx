@@ -8,7 +8,7 @@ const NominalTopUp = () => {
   return (
     <div className="bg-[#2c2f31] p-4 w-full rounded-lg mt-4">
       <HeaderStepTopup stepNumber={"2."} title={"Pilih Nominal Top Up"} />
-      <div className="grid grid-cols-4 gap-4 mt-4">
+      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4 mt-4">
         {topupMobilelegends.map((item, index) => (
           <div
             key={index}

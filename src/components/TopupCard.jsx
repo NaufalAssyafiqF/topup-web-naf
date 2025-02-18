@@ -14,8 +14,8 @@ const TopupCard = ({data}) => {
         />
         <div className="absolute group-hover:inset-0 transition duration-300 ease-in-out bg-gradient-to-t from-[#26292b] w-full h-full rounded-lg"></div>
         <div className="absolute bottom-0 text-white p-2 transition duration-300 transform translate-y-20 group-hover:translate-y-0">
-          <p className="text-xl font-medium">{data.name}</p>
-          <p className="text-lg">{data.publisher}</p>
+          <p className="text-lg lg:text-xl font-medium">{data.name}</p>
+          <p className="text-base lg:text-lg">{data.publisher}</p>
         </div>
       </Link>
     </div>
